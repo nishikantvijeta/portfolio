@@ -8,9 +8,7 @@
       *{
         padding: 0 ;
         margin: 0 ;  
-
       } 
-      
       .hero-section{
         display: flex;
         flex-direction: row;
@@ -21,7 +19,6 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        
       } 
       .text-section p{
         font-size: xx-large;
@@ -40,9 +37,7 @@
         margin-bottom: 20px;
       }
       .bank-image img{
-        
         margin-bottom: 20px;
-        
     }
     .copy{
     background-color: black;
@@ -51,15 +46,47 @@
     text-align: center;
     
   }
-        
+        form{
+    background: rgb(153, 157, 238);
+    display: flex;
+    flex-direction: column;
+    padding:2vw 4vw;
+    width: 90%;
+    max-width:600px;
+    border-radius: 10px;
+}
+form{
+    color: #555;
+    font-weight: 800;
+    margin: bottom 20px;
+}
+form input{
+    border: 0;
+    margin: 10px;
+    padding: 20px;
+     outline:none;
+     background: #f5f5f5;
+     font-size: 16px; ;
+}
+form button{
+    padding: 15px;
+    background: #ff5361;
+    color:white;
+    font-size:18px;
+    border:0;
+    outline:none;
+    cursor:pointer;
+    width:150px;
+    margin: 20px auto 0;
+    border-radius:30px;
+}
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}        
 @media screen and (min-width:800px){
-  /* .copy{
-    background-color: black;
-    font-size: x-large;
-    color: white;
-    text-align: center;
-
-  } */
     .info-section{
         display: flex;
         flex-direction: row;
@@ -70,12 +97,10 @@
     }
     
     .info-section p{
-        font-size: 40px;
-        
+        font-size: 40px;  
     }
     .hero-section{
         margin: 2vw;}
-
     }
     .text-section{
      flex-wrap: wrap;
@@ -86,12 +111,10 @@
         
         width: 35vw;
           height: 650px;
-    
     }
     
     .bank-image img{
         width: 45vw;
-
     }
     .big-screen{
     display: flex;
@@ -169,51 +192,10 @@
     justify-content: center;
     font-style:italic;
 }
-form{
-    background: rgb(153, 157, 238);
-    display: flex;
-    flex-direction: column;
-    padding:2vw 4vw;
-    width: 90%;
-    max-width:600px;
-    border-radius: 10px;
-}
-form{
-    color: #555;
-    font-weight: 800;
-    margin: bottom 20px;
-}
-form input{
-    border: 0;
-    margin: 10px;
-    padding: 20px;
-     outline:none;
-     background: #f5f5f5;
-     font-size: 16px; ;
-}
-form button{
-    padding: 15px;
-    background: #ff5361;
-    color:white;
-    font-size:18px;
-    border:0;
-    outline:none;
-    cursor:pointer;
-    width:150px;
-    margin: 20px auto 0;
-    border-radius:30px;
-}
-.one{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 40px;
-}
+
 .follow-1{
   border-radius: 25px;
   width: 100px;
-  
-  
 }
 .follow-2{
   border-radius: 60px;
@@ -238,13 +220,10 @@ form button{
   margin-left: 5vw;
   width: 90px;
 }
-
 @media screen and (max-width: 800px){
 .follow-1{
   border-radius: 25px;
   width: 100px;
-  
-  
 }
 .follow-2{
   border-radius: 60px;
@@ -269,7 +248,6 @@ form button{
   margin-left: 5vw;
   width: 90px;
 }
-
     .info-section{
         display: flex;
         flex-direction: column;
@@ -299,9 +277,7 @@ form button{
         }
         .hero-section{
         display: flex;
-        flex-direction:column;
-        
-        
+        flex-direction:column;     
     }
     .text-section{
         display: flex;
@@ -322,11 +298,8 @@ form button{
             width: 20vw;
             height: 10vw;
             background-color: rgb(23, 22, 23);
-            margin:2vw 2vw;
-            
+            margin:2vw 2vw;  
         }
-        
-        
         .nav-container{
             display: flex;
             flex-direction: column;
@@ -337,7 +310,6 @@ form button{
             width: 10vw;
             height: 2vw;
             background-color: rgb(14, 6, 248);
-
         }
         .buttons button{
     padding: 9px 14px;
@@ -373,54 +345,11 @@ form button{
     align-items: center;
     justify-content: center;
     font-style:italic;
+}       
 }
-form{
-    background: rgb(153, 157, 238);
-    display: flex;
-    flex-direction: column;
-    padding:2vw 4vw;
-    width: 90%;
-    max-width:600px;
-    border-radius: 10px;
-}
-form{
-    color: #555;
-    font-weight: 800;
-    margin: bottom 20px;
-}
-form input{
-    border: 0;
-    margin: 10px;
-    padding: 20px;
-     outline:none;
-     background: #f5f5f5;
-     font-size: 16px; ;
-}
-form button{
-    padding: 15px;
-    background: #ff5361;
-    color:white;
-    font-size:18px;
-    border:0;
-    outline:none;
-    cursor:pointer;
-    width:150px;
-    margin: 20px auto 0;
-    border-radius:30px;
-}
-.one{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 40px;
-}
-
-        
-      }
     </style>
 </head>
-<body>
-    
+<body>  
     <nav>
       <section class="big-screen">
         <img src="./download (2).png" alt="logo">
@@ -431,15 +360,13 @@ form button{
         </div>
         <button>Login</button>
       </section>
-      <section class="small-screen">
-        
-        <img src="./download (2).png"alt="logo">
+      <section class="small-screen"> 
+     <img src="./download (2).png"alt="logo">
         <div class="nav-container">
         <div class="icon"></div>
         <div class="icon"></div>
         <div class="icon"></div>
     </div>
-
       </section>
     </nav>
     <main class="hero-section">
@@ -449,32 +376,16 @@ form button{
             <h4>Full Stack Web Developer</h4>
             <div class="buttons">
               <button onclick="window.location.href='https://drive.google.com/file/d/1Jnjz6z8IRGGRHhtT0pnTCxxbLz8S3zvz/view?usp=drive_link';">Download Resume</button></div>
-            <!-- <div class="bank-image">
-                <img src="/myimage.jpg" alt="pic">
-            </div> -->
-            <!-- <p>
-                India's best metal credit card. Built with full-stack tech. Backed by
-          the principles of simplicity, transparency, and giving back control to
-          the user.
-            </p> -->
         </div>
         <div class="video-play">
         <img src="./myimage.jpg" alt="pic">
     </div>
-    
     </main>
     <section>
       <div class="container-2"></div>
-  
   <h1 class="main-2">Contact Form</h 1>
-  
   <h2 class="head"> Please let us know your query</h2>
-  <!-- <img src="https://www.linkpicture.com/q/photo.jpg_2.jpg" alt=""> -->
-  
-  
   <div class="one">
-    
-    
      <div class="gap"> </div>
      <form id="my form"action="https://formspree.io/f/mnqybbke" method="POST">
       <h3>GET IN TOUCH</h3>
@@ -491,7 +402,6 @@ form button{
       <img src="./phone.png" alt="" class="phone-pic">
       <h2>Contact Us: 9973391516</h2>
     </div>
-    
     <div class="follow">
       <p>Follow Us on </p>
       <a href="https://instagram.com/nishikantvijeta?utm_source=qr&igshid=ZDExYjZkNGI0OA%3D%3D"><img  src="./instagram.jpg  " alt="" class="follow-1"></a>
@@ -500,9 +410,6 @@ form button{
       <a href="https://www.linkedin.com/in/nishikant-kumar-5101a3271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="./linkedin.png" alt=""class="follow-4"></a>
       <a href="https://www.youtube.com/@nishikantvijeta1258"><img src="./youtube.png" alt=""class="follow-5"></a>
     </div>
-    
-    
-    
 </section>
 <p class="copy">&#169;Nishikant Vijeta, All Right Reserved</p>
 </body>
